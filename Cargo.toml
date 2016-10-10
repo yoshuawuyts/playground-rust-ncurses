@@ -1,0 +1,19 @@
+[package]
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+name = "playground-rust-ncurses"
+version = "0.1.0"
+
+[dependencies]
+ncurses = "5.83.0"
+
+[[bin]]
+name="hello"
+path="src/01_hello.rs"
+
+[[bin]]
+name="io"
+path="src/02_io.rs"
+
+[[bin]]
+name="pager"
+path="src/03_pager.rs"
